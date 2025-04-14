@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Вебгра 'Вгадай пару' для Telegram. Інтерактивна гра з інтеграцією в месенджер.">
+  <meta name="keywords" content="гра, вебгра, Telegram, web app, вгадай пару, javascript, бакалаврська робота">
+  <meta name="author" content="Міщенко Кіріл">
+  <title>Вгадай пару | Telegram Game</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+    section {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .gallery img {
+      max-width: 100px;
+      margin: 0.5em;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    footer {
+      text-align: center;
+      background: #ddd;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Вгадай пару (Find the Pair)</h1>
+  <p>Інтерактивна гра з інтеграцією в Telegram</p>
+</header>
+
+<section>
+  <h2>Опис гри</h2>
+  <p>«Вгадай пару» — це браузерна інтерактивна гра, яка працює прямо в Telegram. Гравцеві потрібно знаходити пари однакових зображень у найкоротший час. Гра адаптована під мобільні пристрої та має просту і зрозумілу механіку.</p>
+</section>
+
+<section>
+  <h2>Ключові слова</h2>
+  <p>гра, вебгра, Telegram, web app, вгадай пару, javascript, бакалаврська робота</p>
+</section>
+
+<section>
+  <h2>Мета та задачі</h2>
+  <ul>
+    <li>Створити інтерактивну гру для Telegram Web Apps</li>
+    <li>Реалізувати адаптивну логіку гри</li>
+    <li>Інтегрувати Telegram API для зчитування інформації користувача</li>
+    <li>Забезпечити зручність гри на мобільних пристроях</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Візуальні матеріали</h2>
+  <div class="gallery">
+    <img src="img/logorock.png" alt="Логотип гри">
+    <img src="img/bg.jpg" alt="Фонове зображення гри">
+    <img src="img/questionsushi.png" alt="Ігровий елемент">
+    <img src="img/whowant.png" alt="Ігровий елемент">
+  </div>
+</section>
+
+<section>
+  <h2>Контактна інформація</h2>
+  <p><strong>Розробник:</strong> Міщенко Кіріл</p>
+  <p><strong>Група:</strong> ІН-13</p>
+  <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/MrCruzzz/vgadaika-front" target="_blank">MrCruzzz/vgadaika-front</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Вгадай пару. Усі права захищено.</p>
+</footer>
+
+</body>
+</html>
